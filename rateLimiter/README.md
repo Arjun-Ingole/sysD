@@ -1,4 +1,4 @@
-# Rate Limiter implemented in typescript
+# Rate Limiter implemented in go
 Mostly in reference to https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter
 
 Its a Bad practice to implement the rate limiter on the client side as clientcan forge / modify the request count and is generally considered unreliable.
